@@ -1,10 +1,14 @@
 <form>
 
-<input type="text" name="numero" #numero>
-<label for="numero">  Dimmi un numero</label>
+<div>
+    <label for="numero"> inserire numero:</label>
+    <input type="number" name = "numero" #numero>
+  </div>
 
-</form>
-
-<input type="submit" value="Estrai" (click)="Estrai(numero,Estrai)">
+  <button (click)= "Estrai(numero)">Estrai</button>
 
 <li *ngFor="let testo of articles">
+
+<app-cartella [lala]="testo"></app-cartella>
+
+

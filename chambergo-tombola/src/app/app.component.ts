@@ -10,8 +10,7 @@ export class AppComponent {
 Estrai(numero:HTMLInputElement):boolean{
   console.log(numero.value);
 
-
-
   return false;
   }
 }
+
