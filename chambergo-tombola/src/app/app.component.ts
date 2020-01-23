@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'chambergo-tombola';
+ articles=new Array<String>();
+Estrai(numero:HTMLInputElement):boolean{
+  console.log(numero.value);
+
+
+
+  return false;
+  }
 }
